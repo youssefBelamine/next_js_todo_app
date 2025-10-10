@@ -1,0 +1,32 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "task": "Buy groceries"
+    },
+    {
+      "id": "2",
+      "task": "Finish React project"
+    },
+    {
+      "id": "3",
+      "task": "Read 10 pages of a book"
+    },
+    {
+      "id": "4",
+      "task": "Clean the workspace"
+    },
+    {
+      "id": "5",
+      "task": "Go for a 30-minute run"
+    },
+    {
+      "id": "6",
+      "task": "Prepare presentation slides"
+    },
+    {
+      "id": "7",
+      "task": "Backup important files"
+    }
+  ]
+}
