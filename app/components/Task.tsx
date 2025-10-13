@@ -30,7 +30,7 @@ export default function Task({ task}: TaskProps) {
             <td style={{display: "flex", justifyContent: "space-between"}}>
 
                 <button style={{cursor: "pointer"}} onClick={() => setShowModal(true)} >
-                <FaPenToSquare size={30} color='#090' />{showModal && "clicked"}
+                <FaPenToSquare size={30} color='#090' />
                 </button>
 
                 <button  style={{cursor: "pointer"}} onClick={() => deleteTask(task)}>
