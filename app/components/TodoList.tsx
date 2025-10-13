@@ -14,7 +14,7 @@ export default function TodoList({ tasks }: TodoListInter) {
                     <tr>
                         
                         <th>Task</th>
-                        <th>Action</th>
+                        <th style={{textAlign: "center"}} >Action</th>
                     </tr>
                 </thead>
                 <tbody>
