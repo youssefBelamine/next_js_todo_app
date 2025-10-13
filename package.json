@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "concurrently \"next dev --turbopack\" \"npm run j-serv\"",
-    "build": "next build --turbopack",
+    "build": "concurrently \"next build --turbopack\" \"npm run j-serv\"",
     "start": "next start",
     "lint": "eslint",
     "j-serv": "npx json-server --watch data/tasks.json --port 3333",
