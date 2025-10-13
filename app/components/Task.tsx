@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from 'react'
-import { TaskInter, TaskProps, TodoListInter } from '../types/typesIndex'
+import { TaskInter, TaskProps } from '../types/typesIndex'
 // import ShowTask from './ShowTask'
 import { MdDeleteForever } from "react-icons/md";
 import { FaPenToSquare } from "react-icons/fa6";
