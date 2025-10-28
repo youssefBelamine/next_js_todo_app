@@ -66,17 +66,7 @@ npm start
 
 ## Screenshots
 
-**Task List**
-![Tasks List](./screenshots/tasks-list.png)
-
-**Add Task**
-![Add Task](./screenshots/add-task.png)
-
-**Edit Task**
-![Edit Task](./screenshots/edit-task.png)
-
-**Delete Task**
-![Delete Task](./screenshots/delete-task.png)
+<p align="center"> <img src="screenshots/home.png" alt="Home Page" style="border: 4px solid #007ACC; border-radius: 8px; padding: 4px;" width="400"/> <img src="screenshots/about.png" alt="About Page" style="border: 4px solid #FF6C37; border-radius: 8px; padding: 4px;" width="400"/> </p> <p align="center"> <img src="screenshots/dashboard.png" alt="Dashboard Page" style="border: 4px solid #28A745; border-radius: 8px; padding: 4px;" width="400"/> <img src="screenshots/settings.png" alt="Settings Page" style="border: 4px solid #FFC107; border-radius: 8px; padding: 4px;" width="400"/> </p>
 
 ---
 
