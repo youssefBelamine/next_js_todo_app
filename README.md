@@ -1,5 +1,4 @@
 
-````markdown
 # Next.js + TypeScript Todo App
 
 ## Introduction & Description
@@ -29,7 +28,6 @@ The app is a **Todo List** where users can add, edit, and delete tasks dynamical
 - SSR-powered for better SEO and performance
 - UUID for unique task identification
 
----
 
 ## Installation Guide
 
