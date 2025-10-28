@@ -1,0 +1,27 @@
+Folder PATH listing
+Volume serial number is 2A98-CBC0
+D:.
+|   favicon.ico
+|   globals.css
+|   layout.tsx
+|   page.tsx
+|   tree.txt
+|   
++---components
+|       AddTask.tsx
+|       Modal.tsx
+|       Task.tsx
+|       TodoList.tsx
+|       
++---services
+|       api.ts
+|       
++---tsk
+|   |   route.ts
+|   |   
+|   \---[id]
+|           route.ts
+|           
+\---types
+        typesIndex.ts
+        

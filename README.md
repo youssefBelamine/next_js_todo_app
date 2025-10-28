@@ -1,36 +1,128 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Perfect! Based on all the information you’ve provided, here’s a complete **README.md** for your Next.js + TypeScript Todo app:
 
-## Getting Started
+````markdown
+# Next.js + TypeScript Todo App
 
-First, run the development server:
+## Introduction & Description
+This project is my first step into exploring **Next.js** and **TypeScript**.  
+I aimed to build a simple yet **CEO-friendly app** that leverages the **Server-Side Rendering (SSR)** feature of Next.js for fast performance and SEO benefits.  
+
+The app is a **Todo List** where users can add, edit, and delete tasks dynamically using a clean and responsive interface.
+
+---
+
+## Tech Stack
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white)
+![DaisyUI](https://img.shields.io/badge/-DaisyUI-ffffff?style=flat-square&logo=&logoColor=white)
+![JSON Server](https://img.shields.io/badge/-JSON%20Server-000000?style=flat-square&logo=json&logoColor=white)
+
+---
+
+## Features
+- Add a new task
+- Edit existing tasks
+- Delete tasks with confirmation
+- Dynamic task list using a JSON server
+- Fully responsive design
+- SSR-powered for better SEO and performance
+- UUID for unique task identification
+
+---
+
+## Installation Guide
+
+1. **Clone the repository:**
+```bash
+git clone <your-repo-url>
+cd next_js_todo_app
+````
+
+2. **Install dependencies:**
+
+```bash
+npm install
+# or
+yarn install
+```
+
+3. **Run the project (development mode):**
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This will start both the **Next.js app** and the **JSON server** simultaneously.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+4. **Build and start for production:**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Screenshots
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Add Task**
+![Add Task](./screenshots/add-task.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Edit Task**
+![Edit Task](./screenshots/edit-task.png)
 
-## Deploy on Vercel
+**Delete Task**
+![Delete Task](./screenshots/delete-task.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Task List**
+![Tasks List](./screenshots/tasks-list.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Project Structure
+
+```
+.
+├── components
+│   ├── AddTask.tsx
+│   ├── Modal.tsx
+│   ├── Task.tsx
+│   └── TodoList.tsx
+|
+├── services
+│   └── api.ts
+|
+├── types
+│   └── typesIndex.ts
+|
+├── data
+│   └── tasks.json
+|
+├── globals.css
+├── layout.tsx
+├── page.tsx
+└── package.json
+```
+
+---
+
+## Routes and API Endpoints
+
+**Frontend Routes (Pages):**
+
+* `/` – Main Todo list page
+
+**API Endpoints (JSON Server):**
+
+* `POST /tasks` – Add a new task
+* `PUT /tasks/:id` – Update a task
+* `DELETE /tasks/:id` – Delete a task
+
+**Notes:**
+
+* The frontend communicates with a JSON server running on `http://localhost:3333`.
+* All API calls are handled via the `services/api.ts` file.
