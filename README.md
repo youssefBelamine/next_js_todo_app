@@ -66,26 +66,26 @@ npm start
 
 ## Screenshots
 
-**Task List**
-<img src="screenshots/tasks-list.png" 
+**Tasks List**
+<br><img src="screenshots/tasks-list.png" 
      alt="Home Page" 
      style="border: 4px solid #007ACC; border-radius: 8px; padding: 4px;" 
      width="600"/>
 
 **Add Task**
-<img src="screenshots/add-task.png" 
+<br><img src="screenshots/add-task.png" 
      alt="Home Page" 
      style="border: 4px solid #007ACC; border-radius: 8px; padding: 4px;" 
      width="600"/>
 
 **Edit Task**
-<img src="screenshots/edit-task.png" 
+<br><img src="screenshots/edit-task.png" 
      alt="Home Page" 
      style="border: 4px solid #007ACC; border-radius: 8px; padding: 4px;" 
      width="600"/>
 
 **Delete Task**
-<img src="screenshots/delete-task.png" 
+<br><img src="screenshots/delete-task.png" 
      alt="Home Page" 
      style="border: 4px solid #007ACC; border-radius: 8px; padding: 4px;" 
      width="600"/>
