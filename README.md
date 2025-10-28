@@ -66,7 +66,29 @@ npm start
 
 ## Screenshots
 
-<p align="center"> <img src="screenshots/home.png" alt="Home Page" style="border: 4px solid #007ACC; border-radius: 8px; padding: 4px;" width="400"/> <img src="screenshots/about.png" alt="About Page" style="border: 4px solid #FF6C37; border-radius: 8px; padding: 4px;" width="400"/> </p> <p align="center"> <img src="screenshots/dashboard.png" alt="Dashboard Page" style="border: 4px solid #28A745; border-radius: 8px; padding: 4px;" width="400"/> <img src="screenshots/settings.png" alt="Settings Page" style="border: 4px solid #FFC107; border-radius: 8px; padding: 4px;" width="400"/> </p>
+**Task List**
+<img src="screenshots/tasks-list.png" 
+     alt="Home Page" 
+     style="border: 4px solid #007ACC; border-radius: 8px; padding: 4px;" 
+     width="600"/>
+
+**Add Task**
+<img src="screenshots/add-task.png" 
+     alt="Home Page" 
+     style="border: 4px solid #007ACC; border-radius: 8px; padding: 4px;" 
+     width="600"/>
+
+**Edit Task**
+<img src="screenshots/edit-task.png" 
+     alt="Home Page" 
+     style="border: 4px solid #007ACC; border-radius: 8px; padding: 4px;" 
+     width="600"/>
+
+**Delete Task**
+<img src="screenshots/delete-task.png" 
+     alt="Home Page" 
+     style="border: 4px solid #007ACC; border-radius: 8px; padding: 4px;" 
+     width="600"/>
 
 ---
 
