@@ -66,6 +66,9 @@ npm start
 
 ## Screenshots
 
+**Task List**
+![Tasks List](./screenshots/tasks-list.png)
+
 **Add Task**
 ![Add Task](./screenshots/add-task.png)
 
@@ -74,9 +77,6 @@ npm start
 
 **Delete Task**
 ![Delete Task](./screenshots/delete-task.png)
-
-**Task List**
-![Tasks List](./screenshots/tasks-list.png)
 
 ---
 
