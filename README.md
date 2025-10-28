@@ -33,7 +33,7 @@ The app is a **Todo List** where users can add, edit, and delete tasks dynamical
 
 1. **Clone the repository:**
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/youssefBelamine/next_js_todo_app.git
 cd next_js_todo_app
 ````
 
